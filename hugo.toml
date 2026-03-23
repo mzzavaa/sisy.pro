@@ -1,0 +1,10 @@
+baseURL = "https://sisy.pro/"
+languageCode = "en-us"
+title = "SISY Pro — Premium Expert Membership"
+
+[params]
+  description = "Unlock your full expert potential with SISY Pro. Priority search ranking, profile analytics, AI-assisted abstracts, verified badge, and early CFP access — built for women experts who are serious about visibility."
+  tagline = "Premium visibility infrastructure for women experts."
+
+[markup.goldmark.renderer]
+  unsafe = true

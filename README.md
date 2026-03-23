@@ -22,13 +22,13 @@ Matches sisy.world:
 
 ## Sections
 
-1. Hero — "Unlock your full expert potential"
-2. Pricing — Starter (Free) / Pro (9 EUR/mo) / Elite (29 EUR/mo)
-3. Features — Deep-dive on Pro/Elite features
-4. Testimonials — Social proof placeholders
-5. FAQ — Accordion with common questions
-6. CTA — Final conversion push
-7. Footer — Full SISY ecosystem links
+1. Hero - "Unlock your full expert potential"
+2. Pricing - Starter (Free) / Pro (9 EUR/mo) / Elite (29 EUR/mo)
+3. Features - Deep-dive on Pro/Elite features
+4. Testimonials - Social proof placeholders
+5. FAQ - Accordion with common questions
+6. CTA - Final conversion push
+7. Footer - Full SISY ecosystem links
 
 ## Deployment
 

@@ -6,12 +6,12 @@
   --clr-bg-alt: #f5eaf2;
   --clr-text: #2d2030;
   --clr-text-soft: #5c4d58;
-  --clr-accent: #b44d8c;
-  --clr-accent-hover: #9a3d76;
+  --clr-accent: #2d8a7e;
+  --clr-accent-hover: #236e65;
   --clr-white: #ffffff;
-  --clr-card-shadow: rgba(180, 77, 140, 0.06);
-  --clr-card-shadow-hover: rgba(180, 77, 140, 0.12);
-  --clr-border: rgba(180, 77, 140, 0.1);
+  --clr-card-shadow: rgba(45, 138, 126, 0.06);
+  --clr-card-shadow-hover: rgba(45, 138, 126, 0.12);
+  --clr-border: rgba(45, 138, 126, 0.1);
   --clr-hero-start: #fdf0f7;
   --font-body: 'Inter', system-ui, sans-serif;
   --font-display: 'Playfair Display', Georgia, serif;
@@ -24,12 +24,12 @@
   --clr-bg-alt: #231428;
   --clr-text: #f0e8ed;
   --clr-text-soft: #a89aac;
-  --clr-accent: #d4699e;
-  --clr-accent-hover: #e07db2;
+  --clr-accent: #4db8a4;
+  --clr-accent-hover: #6ecfbf;
   --clr-white: #2a1a30;
   --clr-card-shadow: rgba(0, 0, 0, 0.25);
   --clr-card-shadow-hover: rgba(0, 0, 0, 0.4);
-  --clr-border: rgba(212, 105, 158, 0.12);
+  --clr-border: rgba(77, 184, 164, 0.12);
   --clr-hero-start: #1e0e24;
 }
 
@@ -181,7 +181,7 @@ a:hover { color: var(--clr-accent-hover); }
   background: var(--clr-accent-hover);
   color: #ffffff;
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(180, 77, 140, 0.3);
+  box-shadow: 0 8px 24px rgba(45, 138, 126, 0.3);
 }
 
 .btn-outline {
@@ -238,7 +238,7 @@ a:hover { color: var(--clr-accent-hover); }
   width: 480px;
   height: 480px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(180, 77, 140, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(45, 138, 126, 0.06) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -250,7 +250,7 @@ a:hover { color: var(--clr-accent-hover); }
   width: 320px;
   height: 320px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(180, 77, 140, 0.04) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(45, 138, 126, 0.04) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -263,9 +263,9 @@ a:hover { color: var(--clr-accent-hover); }
   color: var(--clr-accent);
   margin-bottom: 24px;
   padding: 6px 16px;
-  background: rgba(180, 77, 140, 0.08);
+  background: rgba(45, 138, 126, 0.08);
   border-radius: 20px;
-  border: 1px solid rgba(180, 77, 140, 0.2);
+  border: 1px solid rgba(45, 138, 126, 0.2);
 }
 
 .hero h1 {
@@ -369,7 +369,7 @@ a:hover { color: var(--clr-accent-hover); }
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(180, 77, 140, 0.08);
+  background: rgba(45, 138, 126, 0.08);
   border-radius: 12px;
 }
 
@@ -434,17 +434,17 @@ a:hover { color: var(--clr-accent-hover); }
 
 .pricing-card.featured {
   border: 2px solid var(--clr-accent);
-  box-shadow: 0 4px 32px rgba(180, 77, 140, 0.15);
+  box-shadow: 0 4px 32px rgba(45, 138, 126, 0.15);
   transform: translateY(-8px);
 }
 
 .pricing-card.featured:hover {
   transform: translateY(-12px);
-  box-shadow: 0 16px 48px rgba(180, 77, 140, 0.2);
+  box-shadow: 0 16px 48px rgba(45, 138, 126, 0.2);
 }
 
 [data-theme="dark"] .pricing-card.featured {
-  box-shadow: 0 4px 32px rgba(212, 105, 158, 0.2);
+  box-shadow: 0 4px 32px rgba(77, 184, 164, 0.2);
 }
 
 .pricing-badge {
@@ -590,7 +590,7 @@ a:hover { color: var(--clr-accent-hover); }
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(180, 77, 140, 0.08);
+  background: rgba(45, 138, 126, 0.08);
   border-radius: 14px;
   margin-bottom: 20px;
 }
@@ -625,14 +625,14 @@ a:hover { color: var(--clr-accent-hover); }
 }
 
 .feature-tier-tag.pro {
-  background: rgba(180, 77, 140, 0.1);
+  background: rgba(45, 138, 126, 0.1);
   color: var(--clr-accent);
 }
 
 .feature-tier-tag.elite {
-  background: rgba(180, 77, 140, 0.18);
+  background: rgba(45, 138, 126, 0.18);
   color: var(--clr-accent);
-  border: 1px solid rgba(180, 77, 140, 0.25);
+  border: 1px solid rgba(45, 138, 126, 0.25);
 }
 
 /* ── Testimonials ── */
@@ -678,7 +678,7 @@ a:hover { color: var(--clr-accent-hover); }
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--clr-accent), rgba(180, 77, 140, 0.4));
+  background: linear-gradient(135deg, var(--clr-accent), rgba(45, 138, 126, 0.4));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -891,7 +891,7 @@ a:hover { color: var(--clr-accent-hover); }
 }
 
 .footer-social a:hover {
-  background: rgba(180, 77, 140, 0.1);
+  background: rgba(45, 138, 126, 0.1);
   border-color: var(--clr-accent);
   color: var(--clr-accent);
 }
